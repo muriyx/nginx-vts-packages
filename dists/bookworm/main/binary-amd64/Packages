@@ -1,0 +1,20 @@
+Package: libnginx-mod-http-vts
+Version: 0.2.7-1~bookworm+nginx1.22.1.9+deb12u10
+Architecture: amd64
+Maintainer: nginx-vts-packages contributors <noreply@github.com>
+Installed-Size: 207
+Depends: nginx-abi-1.22.1-7, libc6 (>= 2.14)
+Recommends: nginx
+Homepage: https://github.com/vozlt/nginx-module-vts
+Priority: optional
+Section: httpd
+Filename: pool/main/libn/libnginx-mod-http-vts/libnginx-mod-http-vts_0.2.7-1~bookworm+nginx1.22.1.9+deb12u10_amd64.deb
+Size: 73816
+SHA256: 5d01650388085f4dade073037a80d45b4dace6d9272e47c041ad640dee445ef7
+SHA1: f4fd5ddc18f8c7d6fcd8b5fb0ba705f48914c08c
+MD5sum: 81aa077cb41e603c778c0069d77b2192
+Description: NGINX virtual host traffic status dynamic module
+ Dynamic HTTP module providing virtual host, upstream, and response status
+ metrics, including output suitable for Prometheus-compatible systems.
+ Built against the NGINX packages supplied by the operating system.
+

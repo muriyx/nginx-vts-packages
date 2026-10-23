@@ -1,0 +1,29 @@
+Origin: nginx-vts-packages
+Label: nginx-vts-packages
+Suite: resolute
+Codename: resolute
+Date: Fri, 23 Oct 2026 19:09:48 UTC
+Architectures: amd64 arm64
+Components: main
+Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
+MD5Sum:
+ 4e8a96a01b5e593ac8e6283ad2a08be6 905 main/binary-amd64/Packages
+ b27c598bb11a4eb64c583cf7aa909436 574 main/binary-amd64/Packages.gz
+ 736fec3edca96652f4be047740baca44 180 main/binary-amd64/Release
+ a94e3db3851613d5e9c3be34d83b7543 905 main/binary-arm64/Packages
+ 5518dd51bfb09643849b0df98119544a 573 main/binary-arm64/Packages.gz
+ 9df941c17fcbf9f23df2c7a1005cbb6e 180 main/binary-arm64/Release
+SHA1:
+ adb4a7515dd0d8edd30fd52698c33759e2f7ae68 905 main/binary-amd64/Packages
+ 793b721fdd9adc26e9bce3c051c9b3a5e901a416 574 main/binary-amd64/Packages.gz
+ 62b607ec81c5615bd5a0f49789c9481439fce5e6 180 main/binary-amd64/Release
+ 97b64597d2d666c7ea00a041728e1391334d6ac4 905 main/binary-arm64/Packages
+ ee0686ee108f216fbb34b474aa33a22213c3c231 573 main/binary-arm64/Packages.gz
+ 358ca71ec923d97586bc9b873f554267fc2f8755 180 main/binary-arm64/Release
+SHA256:
+ b724049f6401626f25d281ee170085415302a5035772e81cd5bb0331b847f80b 905 main/binary-amd64/Packages
+ 1c73722cfac46b9ea00523b8a04bf768c5868a863749a1915d741dd594f0c3f7 574 main/binary-amd64/Packages.gz
+ 2a80ab5d562a3bdaec99dab4df5c0ef0bdcb5b46215dfafbe1a2789eaceb94f4 180 main/binary-amd64/Release
+ 27a776b6b9c9c16e2786f5857b3b99b1612d519cbaf23e59ed4fde20cf783e77 905 main/binary-arm64/Packages
+ 817eb35c6ddb6a3c78c6455927e72dd18e6dd4ed3a17f9d57c5a3982b45114a3 573 main/binary-arm64/Packages.gz
+ 9d235a16dba61abe13f27547e8da36b70859e9739c9ec7dba507affdde4f7f94 180 main/binary-arm64/Release

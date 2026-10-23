@@ -1,0 +1,29 @@
+Origin: nginx-vts-packages
+Label: nginx-vts-packages
+Suite: trixie
+Codename: trixie
+Date: Fri, 23 Oct 2026 19:09:48 UTC
+Architectures: amd64 arm64
+Components: main
+Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
+MD5Sum:
+ 64e10c0f67bda93beb9a49e080867783 899 main/binary-amd64/Packages
+ cc1b340f100fb6a6de8e938c310221e2 571 main/binary-amd64/Packages.gz
+ dd5993c1d254a4864c186ac449172a5d 178 main/binary-amd64/Release
+ d392e9972277b6c7bf0e19997dd11bb1 899 main/binary-arm64/Packages
+ 35c166ccd70a967d2f667a43ebd6602f 569 main/binary-arm64/Packages.gz
+ 2b52ae0f20bc8de003aa7eb4b829082c 178 main/binary-arm64/Release
+SHA1:
+ 184f2c5f9c1232b56a910c43b6437354a38a77ca 899 main/binary-amd64/Packages
+ 2d83f4072aed979526a96366c4397725b1ff6b5d 571 main/binary-amd64/Packages.gz
+ 597cabdbcf80e0351991fa90912b8165085aa42a 178 main/binary-amd64/Release
+ 3715a31219bb12f7553d2d9fee5ed972e4cc1cf1 899 main/binary-arm64/Packages
+ 4725f63e4b135e795828f0de9fd327a4545195b5 569 main/binary-arm64/Packages.gz
+ 737b97c160c59d41e80b8c9d5497d08bffdaec7e 178 main/binary-arm64/Release
+SHA256:
+ 50675a438029225a408646dfd8e2c78affe38bdb775f306a13278ff47d725ea1 899 main/binary-amd64/Packages
+ 7f0e14a3f5b56d6c303e98e005dc37a89d34b92a4d78e94fa3f5c321c96bb231 571 main/binary-amd64/Packages.gz
+ ba37f34093dd5bf6291d5594d582bd2a91edea1ac6a411d3f98478d31be109f8 178 main/binary-amd64/Release
+ 81e61bf07ae5fd7de9c081b0cb59fe433c477391a68b20a43afa0c6a304ab093 899 main/binary-arm64/Packages
+ f49f87ae45d7d023ca026fefca0e52e846d6ca6b172e154cb3ddd47bb2e358dc 569 main/binary-arm64/Packages.gz
+ 66ef3597a63bd6144a232aa265905c8d925008dc8a36a693c640676df29076cc 178 main/binary-arm64/Release

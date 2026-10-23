@@ -1,0 +1,6 @@
+Archive: trixie
+Component: main
+Origin: nginx-vts-packages
+Label: nginx-vts-packages
+Architecture: amd64
+Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX

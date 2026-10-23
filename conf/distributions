@@ -1,0 +1,36 @@
+Origin: nginx-vts-packages
+Label: nginx-vts-packages
+Suite: bookworm
+Codename: bookworm
+Architectures: amd64 arm64
+Components: main
+Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
+SignWith: 6BAAA11CA6D556DEAE539D8F5A64AAC1E09CE1DB
+
+Origin: nginx-vts-packages
+Label: nginx-vts-packages
+Suite: trixie
+Codename: trixie
+Architectures: amd64 arm64
+Components: main
+Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
+SignWith: 6BAAA11CA6D556DEAE539D8F5A64AAC1E09CE1DB
+
+Origin: nginx-vts-packages
+Label: nginx-vts-packages
+Suite: noble
+Codename: noble
+Architectures: amd64 arm64
+Components: main
+Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
+SignWith: 6BAAA11CA6D556DEAE539D8F5A64AAC1E09CE1DB
+
+Origin: nginx-vts-packages
+Label: nginx-vts-packages
+Suite: resolute
+Codename: resolute
+Architectures: amd64 arm64
+Components: main
+Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
+SignWith: 6BAAA11CA6D556DEAE539D8F5A64AAC1E09CE1DB
+

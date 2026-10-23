@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: nginx-vts-packages
+Label: nginx-vts-packages
+Suite: bookworm
+Codename: bookworm
+Date: Fri, 23 Oct 2026 19:09:48 UTC
+Architectures: amd64 arm64
+Components: main
+Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
+MD5Sum:
+ 20d022851715fe73a72b8c2098cc4eec 903 main/binary-amd64/Packages
+ 8cf06ebebf70150ecbd9b3b0b57cdf46 574 main/binary-amd64/Packages.gz
+ 82d558e6816854413cd437e04649c36b 180 main/binary-amd64/Release
+ 930bbb4a13d100ca54edff70704e8930 903 main/binary-arm64/Packages
+ 27c9b3d66104ebc7644689e18144d9f4 576 main/binary-arm64/Packages.gz
+ c6515414aa0057d165e3f17a738bf31f 180 main/binary-arm64/Release
+SHA1:
+ 731168925eaa96fe0307067083a0928d5f03b065 903 main/binary-amd64/Packages
+ 3c13807eec3d658ea5009a7d0d1512ab5678f2e4 574 main/binary-amd64/Packages.gz
+ 13fd42ef660646dfa5ad408aa56c5dd950a9f52b 180 main/binary-amd64/Release
+ 8d423cd05a31e13bea966539ad5783fa4e7708f5 903 main/binary-arm64/Packages
+ 62a513e838edbdb301e8657038c4a5db83feaa24 576 main/binary-arm64/Packages.gz
+ 41133b1e603f5920405ebe27ab517460fe26ca34 180 main/binary-arm64/Release
+SHA256:
+ e55e3de93222b53c8252f4cc357013daed6e11793617455ae04f1cd6f9fcdca9 903 main/binary-amd64/Packages
+ 2c2674aa4051cbf53fd0d173ff515440874cb0942f4f2dbd716fec980cc1651d 574 main/binary-amd64/Packages.gz
+ d119fef7c867e129abaedd51267a82476387fa88b10ea4e7fe2eda8cea12a088 180 main/binary-amd64/Release
+ d4c5c011b389e0625fa1cd8bbe1fb670d091ad139d201a49e2cf9d39bdf22222 903 main/binary-arm64/Packages
+ 001d4b0ebb9ece23b7b9d4d729deedee90bc90daa9a3fdda9249d13608995f3c 576 main/binary-arm64/Packages.gz
+ a23d4aca4fa2feb9b5a0d89ed7eb4027c8c664ae5014a5327d381bc6e958d1f6 180 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRrqqEcptVW3q5TnY9aZKrB4Jzh2wUCatuw/AAKCRBaZKrB4Jzh
+24q/AQCkC4qpDxHyRCnTDgjp2sdOOIN18EE9iTKPiWjalYr68AD/cj4ms7o2ZBM+
+TiVTuSfDd0jdhPkFKkPZ5H3VWhTJbAo=
+=Y9QU
+-----END PGP SIGNATURE-----
