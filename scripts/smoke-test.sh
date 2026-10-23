@@ -24,7 +24,7 @@ module="$scratch/unpacked/usr/lib/nginx/modules/ngx_http_vhost_traffic_status_mo
 [[ -s "$module" ]] || { echo "Missing .so in DEB: $module" >&2; exit 1; }
 # dh_nginx must enable exactly the real VTS .so name; the package name alone
 # would incorrectly infer ngx_http_vts_module.so.
-loader="$scratch/unpacked/etc/nginx/modules-available/50-mod-http-vts.conf"
+loader="$scratch/unpacked/usr/share/nginx/modules-available/50-mod-http-vts.conf"
 [[ -s "$loader" ]] || { echo "Missing NGINX module loader: $loader" >&2; exit 1; }
 if ! grep -Fxq 'load_module modules/ngx_http_vhost_traffic_status_module.so;' "$loader"; then
   echo "NGINX module loader does not reference the correct .so: $loader" >&2

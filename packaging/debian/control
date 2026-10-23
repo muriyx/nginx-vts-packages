@@ -9,7 +9,7 @@ Rules-Requires-Root: no
 
 Package: libnginx-mod-http-vts
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, ${nginx:abi}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: nginx
 Description: NGINX virtual host traffic status dynamic module
  Dynamic HTTP module providing virtual host, upstream, and response status

@@ -95,5 +95,5 @@ fi
 cp "${built[0]}" "$output_dir/"
 
 # Fail the build if Debian's NGINX ABI metadata or module loading is wrong.
-"/workspace/scripts/smoke-test.sh" "$output_dir/$(basename "${built[0]}")"
+bash /workspace/scripts/smoke-test.sh "$output_dir/$(basename "${built[0]}")"
 printf 'Built: %s\n' "$output_dir/$(basename "${built[0]}")"
