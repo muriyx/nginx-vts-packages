@@ -1,0 +1,17 @@
+Source: libnginx-mod-http-vts
+Section: httpd
+Priority: optional
+Maintainer: nginx-vts-packages contributors <noreply@github.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nginx
+Standards-Version: 4.6.2
+Homepage: https://github.com/vozlt/nginx-module-vts
+Rules-Requires-Root: no
+
+Package: libnginx-mod-http-vts
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${nginx:abi}
+Recommends: nginx
+Description: NGINX virtual host traffic status dynamic module
+ Dynamic HTTP module providing virtual host, upstream, and response status
+ metrics, including output suitable for Prometheus-compatible systems.
+ Built against the NGINX packages supplied by the operating system.

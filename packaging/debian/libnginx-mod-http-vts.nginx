@@ -1,0 +1,3 @@
+# The shared object has a longer basename than the Debian binary package.
+# Declare its real load directive instead of relying on dh_nginx name inference.
+mod debian/50-mod-http-vts.conf
