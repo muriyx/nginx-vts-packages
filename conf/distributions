@@ -5,7 +5,7 @@ Codename: bookworm
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
-SignWith: 6BAAA11CA6D556DEAE539D8F5A64AAC1E09CE1DB
+SignWith: E9C20E6B3983DA606B8C0D4A2681FA9F66C8DDA5
 
 Origin: nginx-vts-packages
 Label: nginx-vts-packages
@@ -14,7 +14,7 @@ Codename: trixie
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
-SignWith: 6BAAA11CA6D556DEAE539D8F5A64AAC1E09CE1DB
+SignWith: E9C20E6B3983DA606B8C0D4A2681FA9F66C8DDA5
 
 Origin: nginx-vts-packages
 Label: nginx-vts-packages
@@ -23,7 +23,7 @@ Codename: noble
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
-SignWith: 6BAAA11CA6D556DEAE539D8F5A64AAC1E09CE1DB
+SignWith: E9C20E6B3983DA606B8C0D4A2681FA9F66C8DDA5
 
 Origin: nginx-vts-packages
 Label: nginx-vts-packages
@@ -32,5 +32,5 @@ Codename: resolute
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
-SignWith: 6BAAA11CA6D556DEAE539D8F5A64AAC1E09CE1DB
+SignWith: E9C20E6B3983DA606B8C0D4A2681FA9F66C8DDA5
 
