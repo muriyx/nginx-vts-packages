@@ -75,7 +75,7 @@ for deb in "${packages[@]}"; do
   name="$(dpkg-deb -f "$deb" Package)"
   version="$(dpkg-deb -f "$deb" Version)"
   arch="$(dpkg-deb -f "$deb" Architecture)"
-  [[ "$name" == libnginx-mod-http-vts ]] || { echo "Unexpected package $name" >&2; exit 1; }
+  [[ "$name" == nginx-http-vts-module ]] || { echo "Unexpected package $name" >&2; exit 1; }
   [[ "$arch" == amd64 || "$arch" == arm64 ]] || { echo "Unexpected architecture $arch" >&2; exit 1; }
   codename=''
   for distro in bookworm trixie noble resolute; do

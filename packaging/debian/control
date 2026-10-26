@@ -1,4 +1,4 @@
-Source: libnginx-mod-http-vts
+Source: nginx-http-vts-module
 Section: httpd
 Priority: optional
 Maintainer: nginx-vts-packages contributors <noreply@github.com>
@@ -7,7 +7,7 @@ Standards-Version: 4.6.2
 Homepage: https://github.com/vozlt/nginx-module-vts
 Rules-Requires-Root: no
 
-Package: libnginx-mod-http-vts
+Package: nginx-http-vts-module
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: nginx

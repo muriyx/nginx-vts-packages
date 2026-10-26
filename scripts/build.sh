@@ -73,7 +73,7 @@ test -s "$source_dir/LICENSE"
 test -s "$source_dir/config"
 cp -a packaging/debian "$source_dir/debian"
 cat > "$source_dir/debian/changelog" <<CHANGELOG
-libnginx-mod-http-vts ($package_version) $codename; urgency=medium
+nginx-http-vts-module ($package_version) $codename; urgency=medium
 
   * Build nginx-module-vts $vts_version against distro nginx $nginx_version.
 
@@ -86,9 +86,9 @@ CHANGELOG
 )
 
 shopt -s nullglob
-built=("$work_dir"/libnginx-mod-http-vts_*_"$arch".deb)
+built=("$work_dir"/nginx-http-vts-module_*_"$arch".deb)
 if (( ${#built[@]} != 1 )); then
-  echo "Expected exactly one libnginx-mod-http-vts .deb, got ${#built[@]}" >&2
+  echo "Expected exactly one nginx-http-vts-module .deb, got ${#built[@]}" >&2
   find "$work_dir" -maxdepth 1 -name '*.deb' -print >&2
   exit 1
 fi

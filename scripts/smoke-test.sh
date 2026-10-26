@@ -8,7 +8,7 @@ depends="$(dpkg-deb -f "$deb_file" Depends)"
 provides="$(dpkg-query -W -f='${Provides}' nginx)"
 nginx_abi="$(printf '%s' "$provides" | grep -oE 'nginx-abi-[^, ]+' | head -n 1)"
 
-[[ "$package_name" == "libnginx-mod-http-vts" ]]
+[[ "$package_name" == "nginx-http-vts-module" ]]
 [[ "$arch" == "$(dpkg --print-architecture)" ]]
 [[ -n "$nginx_abi" ]] || { echo 'nginx package has no virtual nginx-abi provide' >&2; exit 1; }
 if [[ "$depends" != *"$nginx_abi"* ]]; then
