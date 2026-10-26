@@ -18,3 +18,23 @@ Description: NGINX virtual host traffic status dynamic module
  metrics, including output suitable for Prometheus-compatible systems.
  Built against the NGINX packages supplied by the operating system.
 
+Package: nginx-http-vts-module
+Version: 0.2.7-1~trixie+nginx1.26.3.3+deb13u10
+Architecture: arm64
+Maintainer: nginx-vts-packages contributors <noreply@github.com>
+Installed-Size: 222
+Depends: nginx-abi-1.26.3-1, libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://github.com/vozlt/nginx-module-vts
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx-http-vts-module/nginx-http-vts-module_0.2.7-1~trixie+nginx1.26.3.3+deb13u10_arm64.deb
+Size: 72088
+SHA256: 8a43574e7b2d1ffdaa988a680674f242653d98016a9d990e6f487ac0a896ac52
+SHA1: 570543f8ae3186f2682c74072b2e86427d4cfdc7
+MD5sum: 590c9b041f3080ecc9cb6dfd6b06a621
+Description: NGINX virtual host traffic status dynamic module
+ Dynamic HTTP module providing virtual host, upstream, and response status
+ metrics, including output suitable for Prometheus-compatible systems.
+ Built against the NGINX packages supplied by the operating system.
+
