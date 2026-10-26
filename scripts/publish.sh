@@ -67,8 +67,8 @@ DIST
   done
 } > "$site_dir/conf/distributions"
 
-gpg --batch --export "$fingerprint" > "$site_dir/public-key.gpg"
-gpg --batch --armor --export "$fingerprint" > "$site_dir/public-key.asc"
+# Remove public keys retained by earlier versions of the gh-pages branch.
+rm -f -- "$site_dir/public-key.gpg" "$site_dir/public-key.asc"
 touch "$site_dir/.nojekyll"
 
 for deb in "${packages[@]}"; do
@@ -98,7 +98,6 @@ for deb in "${packages[@]}"; do
 done
 
 reprepro --basedir "$site_dir" export
-owner="${GITHUB_REPOSITORY%%/*}"
 cat > "$site_dir/index.html" <<HTML
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><title>NGINX VTS packages</title></head>
@@ -106,9 +105,9 @@ cat > "$site_dir/index.html" <<HTML
   <h1>NGINX VTS packages</h1>
   <p>APT repository for Debian 12/13 and Ubuntu 24.04/26.04, amd64 and arm64.
      Built against the NGINX package shipped by each distribution.</p>
-  <p><a href="public-key.gpg">APT signing key</a> ·
+  <p><a href="https://github.com/muriyx/archive-keyring">APT signing key</a> ·
      <a href="https://github.com/${GITHUB_REPOSITORY}">Build source</a></p>
-  <pre>deb [signed-by=/usr/share/keyrings/nginx-vts-packages.gpg] https://${owner}.github.io/nginx-vts-packages/ CODENAME main</pre>
+  <pre>deb [signed-by=/usr/share/keyrings/muriyx.gpg] https://muriyx.github.io/nginx-vts-packages/ CODENAME main</pre>
   <p>Replace CODENAME with bookworm, trixie, noble or resolute.</p>
 </body></html>
 HTML
