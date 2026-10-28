@@ -5,7 +5,7 @@ Origin: nginx-vts-packages
 Label: nginx-vts-packages
 Suite: trixie
 Codename: trixie
-Date: Tue, 27 Oct 2026 09:12:28 UTC
+Date: Wed, 28 Oct 2026 09:53:00 UTC
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
@@ -32,8 +32,8 @@ SHA256:
  66ef3597a63bd6144a232aa265905c8d925008dc8a36a693c640676df29076cc 178 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCauBq/AAKCRAmgfqfZsjd
-pZS6APwNlY1Vt0C/ZBNoeBiyvEb/zkhQSQ5sYMeQeBbpvJRriQD+IbyaUpdruTAc
-7m8XQZZFv2MxoKAesSzxfGQYFr58Dw4=
-=PTL6
+iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCauHF/AAKCRAmgfqfZsjd
+pS+fAQCK6EOsjvJisuaDMaxn/hGFMKSA1ozoOsEfI0Aa8lsC6gEAk8tc/dkB5QL+
+nOs8i0B02+njbONwwI/oXpaMW4SILw8=
+=XwTu
 -----END PGP SIGNATURE-----
