@@ -5,7 +5,7 @@ Origin: nginx-vts-packages
 Label: nginx-vts-packages
 Suite: bookworm
 Codename: bookworm
-Date: Thu, 29 Oct 2026 10:14:32 UTC
+Date: Fri, 30 Oct 2026 10:16:36 UTC
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
@@ -32,8 +32,8 @@ SHA256:
  a23d4aca4fa2feb9b5a0d89ed7eb4027c8c664ae5014a5327d381bc6e958d1f6 180 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCauMciAAKCRAmgfqfZsjd
-pYnLAQCLsY83kiOyAciF22iJaxsjd45ZYHqRTwHqQ4OflPWF8QD/eKKjG3YSOel3
-0xcl0g9ZEhXkfi1HQbOoq0nW8lMYogU=
-=KI4I
+iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCauRuhAAKCRAmgfqfZsjd
+pXR9AP9lWWfFfOHqE7hixRxAINZZa3ctfg1rvfR1W/h7B28k8gD/ey/birv9X4G3
+3y67pO0aY7mrGDuRGaS5wq8D35dl7AA=
+=myX1
 -----END PGP SIGNATURE-----
