@@ -5,7 +5,7 @@ Origin: nginx-vts-packages
 Label: nginx-vts-packages
 Suite: noble
 Codename: noble
-Date: Fri, 06 Nov 2026 11:13:37 UTC
+Date: Sat, 07 Nov 2026 10:29:44 UTC
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
@@ -32,8 +32,8 @@ SHA256:
  f7d1f5ab8290a20a0ebac6e4cc7b9c6311ed9f5123898d0709322bf911e65854 177 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCau22YQAKCRAmgfqfZsjd
-pfTkAQCm0k6u8+fmnvEJT2oiks+ZCSNo7VN/MIfeKFWPF9zMuAD/R9OfgTgL5AG4
-JFcfC4OuKWqffIW5rwySoXglsWl7ogA=
-=m3NV
+iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCau79mAAKCRAmgfqfZsjd
+pSD+AQCMaWW41TSSa093xqS9afL+qUCbb1ucTYKviH7k88vTYgEAhvgBnFR450Y1
+8vvmR+naDUZL7ojrSFfYc3iVaFUTVgA=
+=PJqK
 -----END PGP SIGNATURE-----
