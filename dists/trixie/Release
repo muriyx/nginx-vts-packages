@@ -2,7 +2,7 @@ Origin: nginx-vts-packages
 Label: nginx-vts-packages
 Suite: trixie
 Codename: trixie
-Date: Sat, 14 Nov 2026 10:42:54 UTC
+Date: Sun, 15 Nov 2026 11:17:14 UTC
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
