@@ -19,7 +19,7 @@ Description: NGINX virtual host traffic status dynamic module
  Built against the NGINX packages supplied by the operating system.
 
 Package: nginx-http-vts-module
-Version: 0.2.7-1~noble+nginx1.24.0.2ubuntu7.19
+Version: 0.2.7-1~noble+nginx1.24.0.2ubuntu7.20
 Architecture: amd64
 Maintainer: nginx-vts-packages contributors <noreply@github.com>
 Installed-Size: 201
@@ -28,11 +28,11 @@ Recommends: nginx
 Homepage: https://github.com/vozlt/nginx-module-vts
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx-http-vts-module/nginx-http-vts-module_0.2.7-1~noble+nginx1.24.0.2ubuntu7.19_amd64.deb
-Size: 70398
-SHA256: 962618be58cb6cbcd6965d6e58f9cdbcd5f5fc6ccdaffbc8ea33cddbab4f8dc8
-SHA1: 1fc86ceb245eb911aa4bdc89309170e8b76981ed
-MD5sum: ab4667457aa5832ae71260004e3be971
+Filename: pool/main/n/nginx-http-vts-module/nginx-http-vts-module_0.2.7-1~noble+nginx1.24.0.2ubuntu7.20_amd64.deb
+Size: 70424
+SHA256: 204932818148a747e41e694d3788ef685c777d09e34892e717a0ea514115e1ae
+SHA1: 99f7ea42ff4c322493f192cbd34b5c7f4730b3bb
+MD5sum: 25683bc2552d7bc30f13bf52608a430a
 Description: NGINX virtual host traffic status dynamic module
  Dynamic HTTP module providing virtual host, upstream, and response status
  metrics, including output suitable for Prometheus-compatible systems.
