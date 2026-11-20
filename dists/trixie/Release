@@ -2,28 +2,28 @@ Origin: nginx-vts-packages
 Label: nginx-vts-packages
 Suite: trixie
 Codename: trixie
-Date: Thu, 19 Nov 2026 12:00:45 UTC
+Date: Fri, 20 Nov 2026 11:57:18 UTC
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
 MD5Sum:
- 082ddb48e604bf8ab122cf10bd7fa9fb 1795 main/binary-amd64/Packages
- c73172944024551f54bdcf30bbda5a9f 707 main/binary-amd64/Packages.gz
+ 8271602c0f37826684753033fffedfcc 1795 main/binary-amd64/Packages
+ 648fa2e817425194bdf60680fbc15d6f 712 main/binary-amd64/Packages.gz
  dd5993c1d254a4864c186ac449172a5d 178 main/binary-amd64/Release
- 9a62c327edf31a63dd87a4f2604dbff8 1795 main/binary-arm64/Packages
- 09df5dbc25e2d9b70d52c3e08629d861 704 main/binary-arm64/Packages.gz
+ d3ff6a8b473528c4863e87c98fd19a7f 1795 main/binary-arm64/Packages
+ fbe6f62309f7cfca0447a340779a94d8 709 main/binary-arm64/Packages.gz
  2b52ae0f20bc8de003aa7eb4b829082c 178 main/binary-arm64/Release
 SHA1:
- a1aeac1dcdda723e3176e4503cb6dd52828d2410 1795 main/binary-amd64/Packages
- 595a074ec94f8fcef55f0938aff356461613af4a 707 main/binary-amd64/Packages.gz
+ 242616dc0cf2c237eb3d65edf854575693e5eaed 1795 main/binary-amd64/Packages
+ d3b355d6a3cccf3dfc5fa89aee256fdb8fb0de45 712 main/binary-amd64/Packages.gz
  597cabdbcf80e0351991fa90912b8165085aa42a 178 main/binary-amd64/Release
- d427551aa171716f2e5383d4cccf71179d95b3c3 1795 main/binary-arm64/Packages
- 6adfbb53e2fd5c8743b2c389c9d022081ac60145 704 main/binary-arm64/Packages.gz
+ b30d6906d122add211e596d6dd2ce33b2f6395dd 1795 main/binary-arm64/Packages
+ 6e514e198a14ef455462ebb376c12cafb71edcda 709 main/binary-arm64/Packages.gz
  737b97c160c59d41e80b8c9d5497d08bffdaec7e 178 main/binary-arm64/Release
 SHA256:
- 661eaf15863d5d683a0ebe68c0fb68c9745876612cd312b8756bae0fbab24d9d 1795 main/binary-amd64/Packages
- 01b7c84d8ba421fd8876f13d77ee9aa77dd51a724308c51dba6ae6df8d87b774 707 main/binary-amd64/Packages.gz
+ ab79858aec16e065cc6c1655aee4a7fd79c77cea883ce27611d613e44052cbfb 1795 main/binary-amd64/Packages
+ bdda19022d22b5141ea8144a21c118cbc41cdea1fb4e5fd1e4940699db8bb192 712 main/binary-amd64/Packages.gz
  ba37f34093dd5bf6291d5594d582bd2a91edea1ac6a411d3f98478d31be109f8 178 main/binary-amd64/Release
- 93e23e588e6afc587108fbe20b393950210b4520e3f7fb22ba665971e85f7778 1795 main/binary-arm64/Packages
- e7d6502bef4319b1fb09c7a5f93d331f94273945c9b65a6c7e85a5c6a2afff88 704 main/binary-arm64/Packages.gz
+ ba5b4b52774261479b84a65328a265e757168c46306d830f62795ead9b4f5d68 1795 main/binary-arm64/Packages
+ 02de7ad3bfb0047d1a20c304212c21a35a09d9a18908fde7b914217756321de6 709 main/binary-arm64/Packages.gz
  66ef3597a63bd6144a232aa265905c8d925008dc8a36a693c640676df29076cc 178 main/binary-arm64/Release

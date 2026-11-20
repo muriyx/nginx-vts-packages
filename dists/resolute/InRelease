@@ -5,35 +5,35 @@ Origin: nginx-vts-packages
 Label: nginx-vts-packages
 Suite: resolute
 Codename: resolute
-Date: Thu, 19 Nov 2026 12:00:45 UTC
+Date: Fri, 20 Nov 2026 11:57:18 UTC
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
 MD5Sum:
- c3066bd6294eb9411fe10b79cbff4337 1807 main/binary-amd64/Packages
- f72728f213361c6c0926e2db2b627d87 713 main/binary-amd64/Packages.gz
+ 86ef9eee9d058fe58db917080e3cb0c6 1807 main/binary-amd64/Packages
+ 0d9640bc9d92ca5c289082f3fb9eae3c 716 main/binary-amd64/Packages.gz
  736fec3edca96652f4be047740baca44 180 main/binary-amd64/Release
- 45130278ede171aee938d6fde3c9e408 1807 main/binary-arm64/Packages
- fefa61b0d7ab340e93c3fa66d702e3f6 716 main/binary-arm64/Packages.gz
+ 06884647386e2544016860dcd126b60c 1807 main/binary-arm64/Packages
+ 0a4d7ee80ccda7a2de5d88703d058336 714 main/binary-arm64/Packages.gz
  9df941c17fcbf9f23df2c7a1005cbb6e 180 main/binary-arm64/Release
 SHA1:
- a41fcc09c84ab9a79d19570bb47a4a82ba61eb8f 1807 main/binary-amd64/Packages
- 5b44b62c606b3ba2b42806340a19da653fe23d24 713 main/binary-amd64/Packages.gz
+ c2cf61cd0b55bcd59084f22670e3f40977650c22 1807 main/binary-amd64/Packages
+ 12aca7511e894bf978f45a947f467265c7393c1c 716 main/binary-amd64/Packages.gz
  62b607ec81c5615bd5a0f49789c9481439fce5e6 180 main/binary-amd64/Release
- 5e2dc829f04b19316f74278fa9bf9e241649c45d 1807 main/binary-arm64/Packages
- 83be5ec65ac761baed67c3a233f4b99fcc1d901b 716 main/binary-arm64/Packages.gz
+ 93e0aa6cd7c0e9b4b6f3d5b6dfe564d5da192414 1807 main/binary-arm64/Packages
+ dd816f0330f2f18a0c30a0b9b9f0fc3c66e17b44 714 main/binary-arm64/Packages.gz
  358ca71ec923d97586bc9b873f554267fc2f8755 180 main/binary-arm64/Release
 SHA256:
- 6414972bc0f8786e780cab82fc67b455a2a01d2a678fbfe2ff33404ba1b792fd 1807 main/binary-amd64/Packages
- 2eaf29b085d32db0b9284a20420c387d2d630f9697c473751b2da9b28a0a9ca7 713 main/binary-amd64/Packages.gz
+ a352cbbd5ea72c12c73ef76b3a56da5dfd9764413d3f3a1cdbc4b026eaeb3890 1807 main/binary-amd64/Packages
+ b1b2a7d9a045e71a75447019972dd70bc15ae0164a3f3077d8362d1870cc2d93 716 main/binary-amd64/Packages.gz
  2a80ab5d562a3bdaec99dab4df5c0ef0bdcb5b46215dfafbe1a2789eaceb94f4 180 main/binary-amd64/Release
- 57be5018dd2020d6582da97870a913def7ca3fcb056492c813994f3a48035a69 1807 main/binary-arm64/Packages
- 600d6eec37c60e287271db0b837745e299db17f2811deed4111baa2866e3177c 716 main/binary-arm64/Packages.gz
+ 572ffc7c82abde2e91073a1dff459a78b5fa2b180ac1b54a128c0ac213b3f51f 1807 main/binary-arm64/Packages
+ 24d49ac26328aaf062a0d8f9bb0af1226a9acbc298e74603f4a3207db1de55c9 714 main/binary-arm64/Packages.gz
  9d235a16dba61abe13f27547e8da36b70859e9739c9ec7dba507affdde4f7f94 180 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCav7k7QAKCRAmgfqfZsjd
-pXHSAPwMw68RPZvpXup33iPRQ3YjgPwdbxVXi4pCGoX3Le7h3QD/Tzgc1B8/9Sxn
-FqJ8HB4Vv4U1vxiyZVizUivemKqWZQ4=
-=GeHa
+iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCawA1ngAKCRAmgfqfZsjd
+pe2+AP47r2KAqshMi3AQWGwT/oFnU1grNdlm96OF/DjNgztjvQD/ZsYL/4CrHZmB
+MOgc0ANMufMoAweZQRFsLaKy0HgxCQ0=
+=nwXb
 -----END PGP SIGNATURE-----
