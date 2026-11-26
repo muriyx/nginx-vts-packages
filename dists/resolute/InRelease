@@ -5,7 +5,7 @@ Origin: nginx-vts-packages
 Label: nginx-vts-packages
 Suite: resolute
 Codename: resolute
-Date: Wed, 25 Nov 2026 13:14:37 UTC
+Date: Thu, 26 Nov 2026 12:55:20 UTC
 Architectures: amd64 arm64
 Components: main
 Description: nginx-module-vts packages for stock Debian and Ubuntu NGINX
@@ -32,8 +32,8 @@ SHA256:
  9d235a16dba61abe13f27547e8da36b70859e9739c9ec7dba507affdde4f7f94 180 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCawbfPQAKCRAmgfqfZsjd
-pS18APsFa+Sdf4zUoPbk3minfcxGm2G0dpWb7lMEB4+PQfbzfAEA5mfXAOmF3mRT
-Z5dDIh99vlbvpxydJHwge1D+QdZk2Qk=
-=/qZB
+iHUEARYKAB0WIQTpwg5rOYPaYGuMDUomgfqfZsjdpQUCawgsOAAKCRAmgfqfZsjd
+pWaXAP9BR+nhMMBom9vVPTRnz0yZf+aRDLrwF2dm/3Gji8oJZQEA1kNDn4dj+Y56
+6UjPPZ7Au8SKVmS0VEi52BwHXw7YlgQ=
+=EPJP
 -----END PGP SIGNATURE-----
